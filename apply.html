@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Application</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="tito-application">
+      <h1 class="app-heading">APPLICATION</h1>
+      <a href="./index.html" class="home-link">home</a>
+      <div>
+        <form action="https://formspree.io/xjvarlna" method="POST">
+          <input
+            type="text"
+            name="name"
+            id="name"
+            class="form-info-input"
+            placeholder="Firstname Lastname"
+          />
+          <br />
+
+          <input
+            type="text"
+            name="email"
+            id="email"
+            class="form-info-input"
+            placeholder="email@email.com"
+          />
+          <br />
+          <label for="intent" class="form-info-label">Message</label>
+          <br />
+          <textarea
+            name="intent"
+            id="intent"
+            cols="100"
+            rows="10"
+            width="50vw"
+          ></textarea>
+          <br />
+          <input
+            type="submit"
+            value="SUBMIT"
+            class="form-info-label"
+            id="submit-button"
+          />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
