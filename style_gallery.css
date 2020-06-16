@@ -1,0 +1,30 @@
+body {
+  background: black;
+}
+.home-button {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: "Lexend Tera", sans-serif;
+  text-align: right;
+}
+
+.home-button #button {
+  color: white;
+}
+
+.gallery {
+  margin: 10px 50px;
+}
+
+.gallery img {
+  transition: 0.5s;
+  padding: 15px;
+  width: 200px;
+  height: 300px;
+}
+
+.gallery img:hover {
+  filter: grayscale(100%);
+  transform: scale(1.1);
+}

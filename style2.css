@@ -4,44 +4,6 @@
   box-sizing: border-box;
   font-family: "Lexend Tera", sans-serif;
 }
-
-.home {
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  font-size: 100px;
-  color: white;
-}
-
-.banner {
-  background: url("./pics/tito_banner.png") center/cover no-repeat fixed;
-}
-
-.apply-link {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
-    url("./pics/tito_banner.png") center/cover no-repeat fixed;
-}
-
-.app-link {
-  color: white;
-  letter-spacing: 5px;
-  text-decoration: none;
-}
-
-.gallery-page {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgb(0, 0, 0, 0.3)),
-    url("./pics/tito_banner.png") center/cover no-repeat fixed;
-}
-.gallery-page #gallery {
-  color: white;
-  letter-spacing: 5px;
-  text-decoration: none;
-}
-
-/* Application page start */
-/*
 .application {
   min-height: 100vh;
   display: flex;
@@ -111,4 +73,3 @@ textarea {
   font-size: 20px;
   width: 50vw;
 }
-*/
