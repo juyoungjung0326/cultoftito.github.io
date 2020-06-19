@@ -11,7 +11,7 @@
   align-items: center;
   justify-content: space-evenly;
   text-align: center;
-  font-size: 100px;
+  font-size: 10vw;
   color: white;
 }
 .tito-application {
@@ -24,12 +24,12 @@
 
 .app-heading {
   color: rgb(0, 0, 0);
-  font-size: 100px;
+  font-size: 7vw;
 }
 
 .home-link {
   text-transform: uppercase;
-  font-size: 50px;
+  font-size: 5vh;
   color: black;
   text-decoration: none;
   position: relative;
@@ -40,26 +40,26 @@
 }
 
 .form-info-input {
-  width: 600px;
+  width: 50vw;
   background: transparent;
   border: none;
   outline: none;
   border-bottom: 1px solid grey;
   color: rgb(0, 0, 0);
-  font-size: 50px;
+  font-size: 5vh;
   margin-bottom: 16px;
 }
 
 .form-info-label {
   color: black;
   font-weight: bolder;
-  font-size: 50px;
+  font-size: 5vh;
 }
 
 #submit-button {
   letter-spacing: 5px;
-  clear: both;
-  width: 500px;
+  font-size: 5vh;
+  width: 50vw;
 }
 #submit-button:hover {
   background: rgba(255, 255, 255, 0.5);
@@ -69,7 +69,8 @@ textarea {
   font-family: inherit;
   font-size: 20px;
 }
-#intent-input {
-  font-size: 20px;
-  width: 25vw;
+#intent {
+  font-size: 10vh;
+  width: 50vw;
+  height: 25vh;
 }
