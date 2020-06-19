@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body {
   background: black;
 }
@@ -20,8 +23,7 @@ body {
 .gallery img {
   transition: 0.5s;
   padding: 15px;
-  width: 200px;
-  height: 300px;
+  flex: 25%;
 }
 
 .gallery img:hover {
